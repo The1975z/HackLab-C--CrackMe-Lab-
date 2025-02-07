@@ -66,7 +66,7 @@
 #include <Lmcons.h>
 #include <vector>
 #include <random>
-#include "VirtualizerSDK.h"
+
 
 using namespace std;
 
@@ -88,7 +88,6 @@ void displayAnimatedLoadingBar(string message, int steps = 30) {
     cout << endl;
 }
 void logoutSystem(bool& keepRunning) {
-    /*VIRTUALIZER_STR_ENCRYPT_START*/
     int choice;
     cout << "\nDo you want to log out? (1 = Yes, 0 = No): ";
     cin >> choice;
@@ -102,12 +101,11 @@ void logoutSystem(bool& keepRunning) {
         cout << "Thank you for using the system!" << endl;
         keepRunning = false; 
     }
-    /*VIRTUALIZER_STR_ENCRYPT_END*/
 }
 
 int main() 
 {
-    /*VIRTUALIZER_START*/
+    /*VIRTUALIZERSTART*/
     const char* correctUsername = "admin";
     const char* correctPassword = "1234";
     const char* correctKey = "ABCD";
@@ -157,6 +155,6 @@ int main()
             keepRunning = false;
         }
     }
-    /*VIRTUALIZER_END*/
+    /*VIRTUALIZEREND*/
     return 0;
 }
