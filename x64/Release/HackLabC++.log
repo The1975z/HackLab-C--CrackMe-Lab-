@@ -1,0 +1,8 @@
+﻿  HackLabC++.cpp
+C:\Users\The1975\Desktop\Programming\HackLabC(151,25): warning C4566: character represented by universal-character-name '\u274C' cannot be represented in the current code page (874)
+  Generating code
+  1 of 144 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  HackLabC++.vcxproj -> C:\Users\The1975\Desktop\Programming\HackLabC#\HackLab-C-CrackMe-Lab\HackLabC++\HackLabC++\x64\Release\HackLabC++.exe
